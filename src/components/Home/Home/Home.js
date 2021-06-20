@@ -4,7 +4,7 @@ import Services from '../Services/Services';
 import About from '../About/About';
 import Testimonials from '../Testimonials/Testimonials';
 import Contact from '../Contact/Contact';
-import Footer from '../Footer/Footer';
+import Footer from '../../Common/Footer/Footer';
 const Home = () => {
   return (
     <div>

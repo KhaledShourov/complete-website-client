@@ -6,7 +6,6 @@ const Contact = () => {
            <div className="container">
                <div className="section-header text-center mb-5">
                     <h2 className="text-primary">Contact</h2>
-                    <h1>Always  connect with us</h1>
                </div>
                <div className="col-md-9 mx-auto">
                    <form action="">

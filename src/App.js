@@ -5,6 +5,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Login from './components/Login/Login';
 function App() {
   return (
     <div className="App">
@@ -13,9 +14,11 @@ function App() {
         <Route exact path = "/">
           <Home/>
         </Route>
+        <Route exact path = "/login">
+          <Login/>
+        </Route>
       </Switch>
     </Router>
-      
     </div>
   );
 }
