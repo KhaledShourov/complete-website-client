@@ -5,7 +5,8 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Login from './components/Login/Login';
+import Login from './components/Login/LoginForm';
+import Dashboard from './components/Dashboard/Dashboard/Dashboard';
 function App() {
   return (
     <div className="App">
@@ -14,7 +15,10 @@ function App() {
         <Route exact path = "/">
           <Home/>
         </Route>
-        <Route exact path = "/login">
+        <Route path= "/dashboard">
+         <Dashboard/>
+        </Route>
+        <Route path = "/login">
           <Login/>
         </Route>
       </Switch>
