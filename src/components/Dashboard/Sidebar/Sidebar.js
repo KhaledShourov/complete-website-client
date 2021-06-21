@@ -24,17 +24,17 @@ const Sidebar = () => {
                 </li>
                 <div>
                     <li>
-                        <Link to="/allPatients" className="text-white">
+                        <Link to="/allOrders" className="text-white">
                             <FontAwesomeIcon icon={faCalendar} /> <span>Orders</span>
                         </Link>
                     </li>
                     <li>
-                        <Link to="/addDoctor" className="text-white" >
+                        <Link to="/addService" className="text-white" >
                             <FontAwesomeIcon icon={faPlus} /> <span>Add Service</span>
                         </Link>
                     </li>
                     <li>
-                        <Link to="/doctor/setting" className="text-white" >
+                        <Link to="/service/setting" className="text-white" >
                             <FontAwesomeIcon icon={faCog} /> <span>Settings</span>
                         </Link>
                     </li>

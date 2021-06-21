@@ -2,4 +2,21 @@
   width:30%;
   justify-content: space-between;
   margin-left: 15px;
+ cursor: pointer;
+}
+.service-info img:hover{
+  background-color: black;
+  opacity: .8;
+}
+.btn-danger{
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+ .service-info {
+   width:100%;
+   justify-content: space-between;
+  }
+  .testimonials .card {
+    width: 100%;
+  }
 }

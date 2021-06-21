@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section className = "about mt-4">
       <div className="row">
-        <h2>About Us</h2>
+        <h2 className="text-primary text-uppercase">About Us</h2>
         <p>About Our Company</p>
           <div className="col-md-6">
             <img className="img-fluid" src={about} alt="img" />

@@ -2,6 +2,7 @@
   background-image: url(../../../images/hardDisk.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 1000;
 }
 .header-info{
   background-color: rgba(0, 0, 255, 0.787);

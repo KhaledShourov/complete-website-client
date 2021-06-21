@@ -7,8 +7,9 @@
 
 .testimonials .card {
   border:transparent;
-  width: 30%;
+  width: 33%;
   float: left;
+  justify-content: space-between;
   padding: 40px 0;
 }
 
